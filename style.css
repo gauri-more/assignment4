@@ -1,0 +1,243 @@
+body {
+    background-color: black;
+}
+
+.bg-image {
+    position: absolute;
+    z-index: -1;
+    background: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    top: 0px;
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #000;
+    opacity: 0.5; */
+}
+
+/* .bg-image {
+    position: absolute;
+    z-index: -1;
+    background: #000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    object-fit: none;
+    top: 0px;
+} */
+/* a.nav-link {
+    color: #fff;
+} */
+
+li.nav-item {
+    padding-left: 30px;
+    position: relative;
+}
+
+.nav-search-icon {
+    padding-left: 30px;
+}
+
+.sec-padding {
+    padding: 20px 80px;
+}
+
+.home-container {
+    text-align: center;
+
+    color: white;
+}
+
+.padding-head {
+    padding: 200px 0px 90px 0px;
+}
+
+button.navbar-toggler {
+    background-color: white;
+}
+
+.button-secondatry-lg {
+    padding: 15px;
+    width: 130px;
+}
+
+.button-primary-lg {
+    padding: 15px;
+    width: 130px;
+}
+
+
+.nav-link:hover:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #ff7878;
+    position: absolute;
+    left: 50%;
+    border-radius: 8px;
+    bottom: 0px;
+}
+
+.our-service-content {
+    text-align: center;
+
+}
+
+.primary-color {
+    color: #514bcc;
+}
+
+.secondary-color {
+    color: #ff7878;
+}
+
+.horizontal-line {
+    border-bottom: 6px solid;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.service-card-container {
+    background-color: black;
+    opacity: 70%;
+}
+
+.Service-card-image {
+    font-size: 45px;
+}
+
+.service-card-content p {
+    line-height: 35px;
+}
+
+/* .about-us-content {
+    width: 50%;
+    float: right;
+} */
+
+.about-list {
+    font-size: 18px;
+    line-height: 3;
+}
+
+.testimonial-profile-image {
+    width: 80px;
+    height: 80px !important;
+    /* border-radius: 50%; */
+}
+
+.testimonial-cards .owl-item img {
+    /* display: block; */
+    border-radius: 50%;
+}
+
+#carousel-testimonial .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial-cards.p-4 {
+    color: white;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* owl carousal */
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.owl-carousel .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background-color: #ff7878;
+}
+
+.owl-carousel .owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.38) !important;
+}
+
+.owl-carousel span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+
+.owl-carousel .owl-nav button:focus {
+    outline: none;
+}
