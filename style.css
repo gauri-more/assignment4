@@ -35,7 +35,7 @@ li.nav-item {
 }
 
 .sec-padding {
-    padding: 20px 80px;
+    padding: 20px 40px;
 }
 
 .home-container {
@@ -225,7 +225,9 @@ div#btnGroupAddon:hover {
     color: #514bcc !important;
 }
 
-
+.form-control {
+    color: white !important;
+}
 
 /* owl carousal */
 .owl-carousel .owl-nav button {
@@ -294,7 +296,7 @@ div#btnGroupAddon:hover {
 media query */
 @media only screen and (max-width:640px) {
     .sec-padding {
-        padding: 0px 11px;
+        padding: 5px 15px;
     }
 
     .contact-us-form {
@@ -312,11 +314,25 @@ media query */
 
     .bottom-footer {
         /* padding-top: 50px; */
-        padding: 100px 0px 14px 0px;
+        padding: 50px 0px 14px 0px;
         justify-content: center !important;
     }
 
-    .top-footer .col-md-3{
-        margin-top: 30px!important;
+    .top-footer .col-md-3 {
+        margin-top: 10px !important;
+    }
+
+    .about-us-content {
+        padding: 10px!important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .top-footer .col-md-3 {
+        margin-top: 10px !important;
+    }
+
+    .padding-head {
+        padding: 50px 0px 70px 0px;
     }
 }
