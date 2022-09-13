@@ -30,7 +30,7 @@ $(document).ready(function () {
     jQuery("#carousel-testimonial").owlCarousel({
         autoplay: false,
         rewind: true,
-        margin: 20,
+        margin: 25,
         responsiveClass: true,
         autoHeight: true,
         autoplayTimeout: 7000,

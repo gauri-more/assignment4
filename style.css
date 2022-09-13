@@ -9,7 +9,7 @@ body {
     opacity: 0.5;
     height: 100%;
     width: 100%;
-    object-fit: none;
+    object-fit: cover;
     top: 0px;
     /* position: absolute;
     width: 100%;
@@ -19,19 +19,7 @@ body {
     opacity: 0.5; */
 }
 
-/* .bg-image {
-    position: absolute;
-    z-index: -1;
-    background: #000;
-    opacity: 0.5;
-    height: 100%;
-    width: 100%;
-    object-fit: none;
-    top: 0px;
-} */
-/* a.nav-link {
-    color: #fff;
-} */
+
 
 li.nav-item {
     padding-left: 30px;
@@ -40,6 +28,10 @@ li.nav-item {
 
 .nav-search-icon {
     padding-left: 30px;
+}
+
+.nav-search-icon a:hover {
+    color: #ff7878 !important;
 }
 
 .sec-padding {
@@ -62,7 +54,7 @@ button.navbar-toggler {
 
 .button-secondatry-lg {
     padding: 15px;
-    width: 130px;
+    width: 150px;
 }
 
 .button-primary-lg {
@@ -141,47 +133,97 @@ button.navbar-toggler {
     height: 100%;
 }
 
-.testimonial-cards.p-4 {
+.testimonial-cards.p-5 {
     color: white;
+    border-radius: 5%;
+    border: 1px solid black;
     background: black;
 }
 
+.conatct-us-logo i {
+    padding-left: 13px;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    font-size: 22px;
+    line-height: 2;
+}
 
+.conatct-us-logo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #514bcc;
+    background: #514bcc;
+    border-radius: 50%;
+}
 
+.social-links {
+    font-size: 25px;
+}
 
+.top-footer {
+    background-color: #212121;
+    padding-top: 90px;
+}
 
+.bottom-footer {
+    /* padding-top: 50px; */
+    padding: 50px 0px 0px 0px;
+}
 
+input#floatingInput {
+    background: transparent;
+    color: white !important;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
 
+.form-floating>label {
+    color: rgb(152, 147, 147);
+}
 
+textarea#floatingTextarea {
+    background: transparent;
+    color: white !important;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    height: 100px;
+}
 
+.form-floating>.form-control-plaintext~label,
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    opacity: 1;
+    color: white;
+}
 
+input.subscriber-input.form-control {
+    background: transparent;
+    border: 1px solid gray;
+    /* box-shadow: none; */
+}
 
+div#btnGroupAddon {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+}
 
+div#btnGroupAddon:hover {
+    color: #514bcc;
+}
 
+.footer-social-links a:hover {
+    color: #514bcc !important;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.social-links a:hover {
+    color: #514bcc !important;
+}
 
 
 
@@ -209,8 +251,8 @@ button.navbar-toggler {
 }
 
 .owl-carousel .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     display: inline-block;
     background: #ccc;
@@ -219,6 +261,12 @@ button.navbar-toggler {
 
 .owl-carousel .owl-dots button.owl-dot.active {
     background-color: #ff7878;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    /* background: #ccc; */
+    margin: 0 3px;
 }
 
 .owl-carousel .owl-dots button.owl-dot:focus {
@@ -240,4 +288,35 @@ button.navbar-toggler {
 
 .owl-carousel .owl-nav button:focus {
     outline: none;
+}
+
+/* 
+media query */
+@media only screen and (max-width:640px) {
+    .sec-padding {
+        padding: 0px 11px;
+    }
+
+    .contact-us-form {
+        padding: 0px 0px 50px 0px;
+
+    }
+
+    .contact-us-padding {
+        padding-top: 0px !important;
+    }
+
+    .padding-head {
+        padding: 150px 0px 50px 0px;
+    }
+
+    .bottom-footer {
+        /* padding-top: 50px; */
+        padding: 100px 0px 14px 0px;
+        justify-content: center !important;
+    }
+
+    .top-footer .col-md-3{
+        margin-top: 30px!important;
+    }
 }

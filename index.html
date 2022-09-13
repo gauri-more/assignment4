@@ -34,7 +34,9 @@
                             <span class="fw-bold text-white">A P Z O</span>
                         </a>
                     </div>
-
+                    <div class="nav-search-icon d-md-none d-sm-block">
+                        <a class="text-white"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -62,9 +64,11 @@
 
                         </ul>
                     </div>
-                    <div class="nav-search-icon">
-                        <a class="nav-link text-white"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+                    <div class="nav-search-icon d-none d-md-block d-lg-block">
+                        <a class="text-white"><i class="fa-solid fa-magnifying-glass"></i></a>
                     </div>
+                   
                 </nav>
             </header>
             <div class="home-container padding-head">
@@ -85,7 +89,7 @@
     <section id="our-services">
         <div class="our-services-container mt-5 position-relative">
             <img class="bg-image" src="./images/background_images3.jfif">
-            <div class="our-service-content sec-padding padding-head">
+            <div class="our-service-content padding-head">
                 <h1 class="text-white fw-bold">Our Services</h1>
                 <div class="row our-service-cards sec-padding m-0">
 
@@ -298,29 +302,111 @@
                 <div class="owl-slider">
                     <div id="carousel-testimonial" class="owl-carousel testimonial-cards">
                         <div class="item">
-                            <div class=" row">
-                                <div class="col-md-12 testimonial-cards p-4">
-                                    <div class="team-member-box">
-                                        <div class="testimonial-info p-5">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-                                                distinctio
-                                                odio tempore sapiente illum voluptates optio alias, sit rem placeat nisi
-                                                labore vero magnam consectetur, laudantium asperiores cum veritatis
-                                                magni
-                                                voluptatibus? Iusto tempore eaque cupiditate placeat maiores, cum
-                                                explicabo
-                                                excepturi.
-                                            </p>
+                            <div class="testimonial-cards p-5">
+                                <div class="team-member-box">
+                                    <div class="testimonial-info">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                            distinctio
+                                            odio tempore sapiente illum voluptates optio alias, sit rem placeat nisi
+                                            labore vero magnam consectetur, laudantium asperiores cum veritatis
+                                            magni
+                                            voluptatibus? Iusto tempore eaque cupiditate placeat maiores, cum
+                                            explicabo
+                                            excepturi.
+                                        </p>
+                                    </div>
+                                    <div class="py-4 d-flex justify-content-between">
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <div class="testimonial-profile-image">
+                                                <img src="./images/profile_about_image1.jpg">
+                                            </div>
+                                            <div class="mx-4">
+                                                <p class="m-0 fw-bold">Stephanie Jenkins</p>
+                                                <small class="text-red">Jounalist, London</small>
+                                            </div>
                                         </div>
-                                        <div class="py-2 d-flex justify-content-between">
-                                            <div class="testimonial-profile d-flex align-items-center">
-                                                <div class="testimonial-profile-image">
-                                                    <img src="./images/profile_about_image1.jpg">
-                                                </div>
-                                                <div class="mx-4">
-                                                    <p class="m-0 fw-bold">Stephanie Jenkins</p>
-                                                    <small class="text-red">Jounalist, London</small>
-                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-cards p-5">
+                                <div class="team-member-box">
+                                    <div class="testimonial-info">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                            distinctio
+                                            odio tempore sapiente illum voluptates optio alias, sit rem placeat nisi
+                                            labore vero magnam consectetur, laudantium asperiores cum veritatis
+                                            magni
+                                            voluptatibus? Iusto tempore eaque cupiditate placeat maiores, cum
+                                            explicabo
+                                            excepturi.
+                                        </p>
+                                    </div>
+                                    <div class="py-4 d-flex justify-content-between">
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <div class="testimonial-profile-image">
+                                                <img src="./images/profile_about_images2.jpg">
+                                            </div>
+                                            <div class="mx-4">
+                                                <p class="m-0 fw-bold">Stephanie Jenkins</p>
+                                                <small class="text-red">Jounalist, London</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-cards p-5">
+                                <div class="team-member-box">
+                                    <div class="testimonial-info">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                            distinctio
+                                            odio tempore sapiente illum voluptates optio alias, sit rem placeat nisi
+                                            labore vero magnam consectetur, laudantium asperiores cum veritatis
+                                            magni
+                                            voluptatibus? Iusto tempore eaque cupiditate placeat maiores, cum
+                                            explicabo
+                                            excepturi.
+                                        </p>
+                                    </div>
+                                    <div class="py-4 d-flex justify-content-between">
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <div class="testimonial-profile-image">
+                                                <img src="./images/profile_about_image3.jpg">
+                                            </div>
+                                            <div class="mx-4">
+                                                <p class="m-0 fw-bold">Stephanie Jenkins</p>
+                                                <small class="text-red">Jounalist, London</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-cards p-5">
+                                <div class="team-member-box">
+                                    <div class="testimonial-info">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                            distinctio
+                                            odio tempore sapiente illum voluptates optio alias, sit rem placeat nisi
+                                            labore vero magnam consectetur, laudantium asperiores cum veritatis
+                                            magni
+                                            voluptatibus? Iusto tempore eaque cupiditate placeat maiores, cum
+                                            explicabo
+                                            excepturi.
+                                        </p>
+                                    </div>
+                                    <div class="py-4 d-flex justify-content-between">
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <div class="testimonial-profile-image">
+                                                <img src="./images/profile_about_images2.jpg">
+                                            </div>
+                                            <div class="mx-4">
+                                                <p class="m-0 fw-bold">Stephanie Jenkins</p>
+                                                <small class="text-red">Jounalist, London</small>
                                             </div>
                                         </div>
                                     </div>
@@ -333,6 +419,141 @@
             </div>
         </div>
     </section>
+    <section id="contact-us">
+        <div class="contact-us-conatiner mt-5 position-relative ">
+            <img class="bg-image" src="./images/background_image1.jfif">
+            <div class=" row sec-padding m-0">
+
+                <div class=" col-md-4 contact-us-details text-white padding-head">
+                    <h1 class="fw-bold py-2">Contact Us</h1>
+                    <div class="address d-flex align-items-center pt-4">
+                        <div class="conatct-us-logo">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                        <p class="ps-3">12th Wall Street NY United States</p>
+                    </div>
+
+                    <div class="phone d-flex align-items-center pt-4">
+                        <div class="conatct-us-logo">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p class="ps-3">(1) 194134122</p>
+                    </div>
+                    <div class="mail d-flex align-items-center pt-4">
+                        <div class="conatct-us-logo">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                        </div>
+                        <p class="ps-3">test@gmail.com</p>
+                    </div>
+                    <div class="social-links d-flex align-items-center pt-5">
+                    <a class=" text-white" href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-linkedin-in ps-3"></i></a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-pinterest-p ps-3"></i></a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-twitter ps-3"></i> </a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-instagram ps-3"></i> </a>
+                    </div>
+                </div>
+
+                <div class=" col-md-8 contact-us-form contact-us-padding padding-head">
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="full name here">
+                        <label for="floatingInput">Full Name*</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email*</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Subject*</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Message*</label>
+                    </div>
+                    <button type="button" class="btn btn-danger rounded-pill button-secondatry-lg mt-3">SUBMIT NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class=" row top-footer sec-padding text-white m-0">
+            <div class="col-md-3">
+                <div class="logo ">
+                    <a class="navbar-brand" href="#">
+                        <span class="fw-bold text-white">A P Z O</span>
+                    </a>
+                </div>
+                <p class="lh-base mt-4">Manage the entire recruitment workflow from candidate sourcing to submittal to
+                    placement, the APZO
+                    CRM.</p>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-contact ">
+                    <span class="fw-bold text-white">Contact</span>
+
+                </div>
+                <ul class="list-unstyled mt-4">
+                    <li class="py-2">Mon-fri:8.00am-6.00pm</li>
+                    <li class="py-2">112W 34th 8t,New York</li>
+                    <li class="py-3"> <i class="fa-solid fa-phone-volume pe-3"></i><span
+                            class="secondary-color">(1)-2340-33-455 </span></li>
+                    <li class="py-3"> <i class="fa-regular fa-envelope pe-3"></i> <span
+                            class="secondary-color">test@gmail.com</span></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <div class="quick-links">
+
+                    <span class="fw-bold text-white">Quick Links</span>
+
+                </div>
+                <div class="d-flex secondary-color">
+                    <ul class="list-unstyled mt-4">
+                        <li class="py-2">About Us</li>
+                        <li class="py-2">Our Team</li>
+                        <li class="py-2">Our News</li>
+                        <li class="py-2">Case Studies</li>
+                        <li class="py-2">Price Table</li>
+                    </ul>
+                    <ul class="list-unstyled mt-4 ps-4">
+                        <li class="py-2">Legal</li>
+                        <li class="py-2">Terms</li>
+                        <li class="py-2">Privacy</li>
+                        <li class="py-2">Jobs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="subscriber">
+                    <span class="fw-bold text-white">Subscribe to newsletter</span>
+                </div>
+                <div class="">
+                    <p class="lh-base mt-4"> Get the latest business resources on the market delivered to your inbox
+                    </p>
+                    <div class="input-group pt-3">
+                        <input type="eamil" class="subscriber-input form-control" placeholder="Enter your email here"
+                            aria-label="Input group example" aria-describedby="btnGroupAddon">
+                        <div class="input-group-text secondary-color add-on-btn" id="btnGroupAddon">
+                            <i class="fa-solid fa-location-arrow"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-footer d-flex justify-content-between flex-wrap ">
+                <p class="text-muted">Copyright @2019 GoodLayers. All Rights Reserved</p>
+                <div class="footer-social-links d-flex ">
+                    <a class=" text-white" href="#"><i class="fa-brands fa-facebook-f"></i> </a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-linkedin-in ps-3"></i></a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-pinterest-p ps-3"></i></a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-twitter ps-3"></i> </a>
+                    <a class=" text-white" href="#"><i class="fa-brands fa-instagram ps-3"></i> </a>
+                </div>
+            </div>
+
+    </footer>
 </body>
 
 </html>
